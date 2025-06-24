@@ -7,8 +7,10 @@ phases:
       - mvn --version
   build:
     commands:
-      - echo Building only servlet-http2 module...
-      - mvn install -rf :servlet-http2 -DskipTests
+      - echo Installing test-utils...
+      - mvn install -DskipTests -pl test-utils
+      - echo Building servlet-http2 module...
+      - mvn install -DskipTests -pl servlet/http2
 artifacts:
   files:
     - servlet/http2/target/*.war
