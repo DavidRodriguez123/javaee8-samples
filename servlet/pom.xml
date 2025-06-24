@@ -18,7 +18,6 @@
     <name>Java EE 8 Samples: Servlet</name>
 
     <modules>
-        <module>http</module>
         <module>http2</module>
         <module>mapping</module>
     </modules>
