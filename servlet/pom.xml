@@ -3,7 +3,7 @@
 
     <parent>
         <groupId>org.javaee8</groupId>
-        <artifactId>samples-parent</artifactId>
+        <artifactId>servlet</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     
